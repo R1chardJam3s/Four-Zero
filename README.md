@@ -1,6 +1,6 @@
 # Four-Zero
 
-A Project done as part of the CS230 course at Swansea University.
+A group project done as part of the CS230 course at Swansea University.
 
 ## Version
 Built for Java 1.8.
