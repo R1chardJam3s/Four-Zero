@@ -1,0 +1,108 @@
+.root{
+	-fx-background-image: url("assets/forest_background.gif");
+}
+
+#pauseButton{
+    -fx-text-fill: #654321;
+	-fx-font-size: 20;
+	-fx-text-position: center;
+	-fx-min-width: 120;
+	-fx-min-height: 70;
+	-fx-background-image: url("assets/png/111111111.png");
+	-fx-border-color: #DFB951;
+	-fx-border-width: 3;
+	-fx-font-weight: bold;
+}
+#pauseButton:hover {
+	-fx-text-fill: #0b5e0d;
+	-fx-cursor:hand;
+}
+.button{
+    -fx-text-fill: #654321;
+	-fx-font-size: 20;
+	-fx-text-position: center;
+	-fx-min-width: 250;
+	-fx-min-height: 70;
+	-fx-background-image: url("assets/png/111111111.png");
+	-fx-border-color: #DFB951;
+	-fx-border-width: 3;
+	-fx-font-weight: bold;
+}
+.button:hover {
+	-fx-text-fill: #0b5e0d;
+	-fx-cursor:hand;
+}
+#titles{
+	-fx-text-fill: #3a983d;
+	-fx-font-size: 33;
+	-fx-font-weight: bold;
+}
+#titles.label .text {
+    -fx-stroke: white;
+    -fx-stroke-width: 1px;
+}
+#timer{
+	-fx-text-fill: #0b5e0d;
+	-fx-font-size: 15;
+	-fx-font-weight: bold;
+}
+
+.combo-box-base{
+	-fx-font-size: 20;
+	-fx-font-position: center;
+	-fx-pref-width: 250;
+	-fx-pref-height: 70;
+	-fx-background-image: url("assets/png/111111111.png");
+	-fx-background-radius: 0 20 0 20;
+	-fx-border-color: #DFB951;
+	-fx-border-width: 3;
+	-fx-font-weight: bold;
+	-fx-border-radius: 10;
+	-fx-radius: 5 5 5 5;
+}
+.combo-box-base:hover{
+	-fx-cursor:hand;
+}
+.combo-box-base .text:hover{
+	-fx-fill: #488214;
+}
+.combo-box-base>.list-cell{
+	-fx-alignment:center;
+}
+.combo-box-base .text{
+    -fx-fill: #654321;
+}
+.combo-box-popup .list-view:hover{
+	-fx-cursor: hand;
+}
+.combo-box-popup > .list-view {
+    -fx-border-style: solid;
+    -fx-border-width: 3;
+    -fx-border-color: #DFB951;
+    -fx-background-insets: 0, 1;
+	-fx-text-fill: #654321;
+}
+.text-field{
+	-fx-font-size: 20;
+	-fx-alignment: center;
+	-fx-pref-height: 70;
+	-fx-background-image: url("assets/png/111111111.png");
+	-fx-background-radius: 0 20 0 20;
+	-fx-border-color: #DFB951;
+	-fx-border-width: 3;
+	-fx-font-weight: bold;
+	-fx-border-radius: 10;
+	-fx-radius: 5 5 5 5;
+	-fx-text-fill: #654321;
+}
+#motd{
+	-fx-text-fill: white;
+	-fx-font-size: 15;	
+	-fx-text-alignment:center;
+}	
+
+#grid{
+	-fx-background-color: #30BE50;
+	-fx-border-color: black;
+	-fx-border-width: 3;
+}
